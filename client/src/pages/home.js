@@ -2,13 +2,9 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
-      <a href="./register" className="btnText">
-        Register
-      </a>
-      <a href="./login" className="btnText">
-        Login
-      </a>
+    <div className="homeHeader">
+      <a href="./register">Register</a>
+      <a href="./login">Login</a>
     </div>
   );
 }
