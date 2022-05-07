@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(241, 233, 233);
+}
+
+.card-header {
+  align-items: center;
+}
+
+.text {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.btnText {
+  color: blue;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.btnText:hover {
+  text-decoration: none;
+}
+.col {
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(205, 238, 195);
+  border-radius: 20px;
+}
+
+.registerCol {
+  height: 600px;
+}
+.loginCol {
+  height: 350px;
+}
+.registerForm {
+  margin-top: 15%;
+}
+.loginForm {
+  margin-top: 11px;
+}
+.formHeaderText {
+  text-align: center;
+  margin-top: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 14%;
+  height: 25px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+
+.days li:hover {
+  background: #1abc9c;
+  color: white !important;
+}
+.h1 {
+  margin-top: 15px;
+  display: none;
+}
+.days li:active ~ .h1 {
+  display: block;
+}
