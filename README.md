@@ -39,6 +39,7 @@ npm 8.1.1 ve diğer kütüphaneler server ve client dosyalarında bulunan packag
 
 ## Yapabildiklerim
 
+* Proje çalıştığında ilk olarak, kayıt ya da giriş yapabileceğimiz sayfalara yönlendiren, Register ve Login isimli iki buton bulunan bir sayfa açılıyor.
 * Kayıt ekranı ve giriş ekranı. Kayıt olan kullanıcıların bilgileri redis ve aynı zamanda mongoDb veri tabanına kaydediliyor.
 * Kayıt olurken kayıtlı email ile bir daha kayıt olunmuyor. Giriş ekranında ise sorgu çalışıyor doğru veya yanlış girildiğinde geri dönüş alınıyor.
 * Kayıt olurken, başarılı kayıtta giriş ekranına, aynı zamanda giriş yaparken; başarılı girişte kullanıcı anasayfaya yönlendirme(routerlama) işlemi ancak sayfayı yenileyince oluyor
